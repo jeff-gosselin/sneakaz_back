@@ -11,11 +11,29 @@ meghan = Shopper.create({username: 'Meghan', password_digest: '456xyz', email: '
 #############################################
 
 # Items
-adidas_01 = Item.create({brand: 'Adidas', name: 'Adidas Ultraboost 19', category: 'mens', price: 179.99, image: '/images/adidas/adidas_01.jpg'})
+adidas_01 = Item.create({brand: 'adidas', name: 'Adidas Sneaker Freaker', category: 'mens', price: 179.99, image: 'adidas_01.png'})
 
-nike_01 = Item.create({brand: 'Nike', name: 'Nike Air Max 1', category: 'womens', price: 119.99, image: '/images/nike/nike_01.jpg'})
+adidas_02 = Item.create({brand: 'adidas', name: 'Adidas X FootPatrol', category: 'mens', price: 119.99, image: 'adidas_02.png'})
 
-puma_01 = Item.create({brand: 'Puma', name: 'Puma Uproar', category: 'mens', price: 129.99, image: '/images/puma/puma_01.jpg'})
+adidas_03 = Item.create({brand: 'adidas', name: 'Adidas 595 STT', category: 'womens', price: 129.99, image: 'adidas_03.png'})
+
+saucony_01 = Item.create({brand: 'saucony', name: 'Saucony Guide ISO', category: 'womens', price: 99.99, image: 'saucony_01.png'})
+
+saucony_02 = Item.create({brand: 'saucony', name: 'Saucony Shadow 5000', category: 'womens', price: 139.99, image: 'saucony_02.png'})
+
+puma_01 = Item.create({brand: 'puma', name: 'Puma X Ader 2', category: 'mens', price: 109.99, image: 'puma_01.png'})
+
+puma_02 = Item.create({brand: 'puma', name: 'Puma Blaze of Glory', category: 'womens', price: 199.99, image: 'puma_02.png'})
+
+puma_03 = Item.create({brand: 'puma', name: 'Puma RS-X Toys', category: 'womens', price: 169.99, image: 'puma_03.png'})
+
+puma_04 = Item.create({brand: 'puma', name: 'Puma RS-X Toys', category: 'mens', price: 169.99, image: 'puma_04.png'})
+
+nike_01 = Item.create({brand: 'nike', name: 'Nike Air Max Plus', category: 'mens', price: 185.99, image: 'nike_01.png'})
+
+nike_02 = Item.create({brand: 'nike', name: 'Nike Air Max 97', category: 'mens', price: 69.99, image: 'nike_02.png'})
+
+nike_03 = Item.create({brand: 'nike', name: 'Nike Sprinter', category: 'mens', price: 149.99, image: 'nike_03.png'})
 
 #############################################
 
