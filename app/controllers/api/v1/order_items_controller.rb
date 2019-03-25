@@ -28,6 +28,6 @@ class Api::V1::OrderItemsController < ApplicationController
 	private
 
 	def order_item_params
-		params.require(:order_item).permit(:shopper_id, :total, :complete)
+		params.require(:order_item).permit(:order_id, :item_id, :qty, :size, :total, :image, :color)
 	end
 end
