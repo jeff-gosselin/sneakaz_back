@@ -5,17 +5,17 @@ class Api::V1::OrderItemsController < ApplicationController
 	end
 
 	def show
-		@order_item = Order.find(params[:id])
+		@order_item = OrderItem.find(params[:id])
 		render json: @order_item
 	end
 
 	def create
-		@order_item = Order.create(order_item_params)
+		@order_item = OrderItem.create(order_item_params)
 		render json: @order_item
 	end
 
 	def update
-		order_item = Shopper.find(:id)
+		order_item = OrderItem.find(:id)
 		order_item.update(order_item_params)
 		render json: order_item
 	end
