@@ -23,6 +23,11 @@ class Api::V1::OrderItemsController < ApplicationController
 	def destroy
   @order_item = OrderItem.find(params[:id])
   @order_item.destroy
+	if @order_item.valid?
+     render :json=> @order_item, status: :created
+   else
+     render json: {error: 'failed to delete job'}, status: :not_acceptable
+   end
 	end
 
 	private
