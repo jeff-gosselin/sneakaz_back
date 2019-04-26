@@ -14,10 +14,16 @@ class Api::V1::OrdersController < ApplicationController
 		render json: @order
 	end
 
+	def update
+		@order = Order.find(params[:id])
+		@order.update(order_params)
+		render json: @order
+	end
+
 	private
 
 	def order_params
-		params.require(:order).permit(:shopper_id, :total, :complete)
+		params.require(:order).permit(:shopper_id, :total, :complete, :date)
 	end
 
 end
