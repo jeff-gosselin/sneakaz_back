@@ -2,6 +2,10 @@
 
 An ecommerce application where users can search for sneakers, add sneakers to their virtual shopping bag, make fake purchases, and keep track of their order history.
 
+[Hosted on Heroku](https://sneakaz-front.herokuapp.com)
+
+[Demo Video](https://drive.google.com/file/d/1ej8uZ0-FywxCAmYDUmFVPnLyOltVdBbS/view)
+
 ## Purpose
 
 The goal of building this app was to learn more about what was involved in creating an ecommerce site, specifically an online shopping cart.
